@@ -1,0 +1,37 @@
+Thanks the friends of EST AR for theirs supporting and trust. The iOS version of the "Xiaozhi Spitit" that you are looking forword to has finally come online.
+
+
+
+In addition to head tracking, the "Xiaozhi Spitit" APP control is also a good choice for the interactive mode of the AR device. You can telecontrol the EST AR glasses with the "Xiaozhi Spitit". You can quickly input the chinese text into the AR device with the keyboard of "Xiaozhi Spitit" APP. You can easily download, install and uninstall more Apps with it.
+
+"Xiaozhi Spitit" can offer you :
+
+    * one-click connection 
+		Turn on the bluetooth of the phone and the bluetooth of the AR device. The first connection between the two bluetooth requires only one step. After that the APP can automatically identify your AR device and connect it.
+
+    * remote-controll
+		After successfully connecting the AR device, it is in the remote-controlled mode. The virtual keys on the app (up down left right) can be manipulated freely.
+
+    * fastly input text 
+		By using the keyboard of this APP can fastly input the text, address, password and so on. Help the user to edit the text info on AR device in real time.
+		
+    * game controller
+		The UI of this APP designed to be a game controller style. Manipulating game is so easy.
+
+    * The efficient tool to connect to the internet 
+		Turn on the WIF or hotspot, then send the password of WIFI or hotspot to the AR device, let it connect to the internet.
+
+    * AR APP store
+		The App manager for the AR device. Whether to download, install, or uninstall app, all you need is a one-click operation.
+
+    * More than these, more surprises waitting for you to find out.
+
+Demand:
+    * IOS 8.0 and above
+    * Connect to EST AR device via bluetooth
+    * Compatible with EST 1 and EST 2
+
+
+
+
+EST.Xiaozhi.Spitit.Xiaozhi Spitit

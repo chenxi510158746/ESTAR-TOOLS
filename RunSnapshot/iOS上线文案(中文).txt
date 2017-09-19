@@ -1,0 +1,64 @@
+宣传文本：
+
+【感谢智视AR小伙伴们的支持和信任。
+你们期待的“小智精灵”iOS版终于上线啦！】
+
+thanks the friends of EST AR for theirs supporting and trust.
+The iOS version of the EST-elfin that you are looking forword to has finally come online.
+
+描述：description
+
+【“小智精灵”可遥控由智视研发的AR设备，手机操控可替代头部追踪和AR设备交互。使用手机键盘快速在AR设备中进行文本输入。辅助AR设备下载和卸载更多应用。
+
+In addition to head tracking, the EST-elfin APP control is also a good choice for the interactive mode of the AR device.
+You can telecontrol the EST AR glasses with the EST-elfin.  
+You can quickly input the chinese text into the AR device with the keyboard of EST-elfin APP.
+You can easily download, install and uninstall more Apps with it.
+
+“小智精灵”为您提供：
+EST-elfin can offer you :
+
+    * 一键连接AR，方便快速  one-click connection 
+        开启手机蓝牙以及AR设备蓝牙，首次连接只需一步。后续自动识别您的AR设备并连接。
+		Turn on the bluetooth of the phone and the bluetooth of the AR device.
+		The first connection between the two bluetooth requires only one step.
+		After that the APP can automatically identify your AR device and connect it.
+
+    * 遥控AR，随心所欲   remote-controll
+        连接AR设备成功，自动进入遥控状态，上、下、左、右、OK（确定）键任由操控。
+		After successfully connecting the AR device, it is in the remote-controlled mode.
+		The virtual keys on the app (up down left right) can be manipulated freely.
+
+    * 文本输入，快人一步  fastly input text 
+        使用手机键盘快速输入文本、地址、密码等操作。辅助AR设备，实时编辑文本信息。
+		By using the keyboard of this APP can fastly input the text, address, password and so on .
+		Help the user to edit the text info on AR device in real time.
+		
+
+    * 游戏手柄，畅爽淋漓   game controller
+        仿真手柄的界面设计，从此掌控游戏如此简单。
+		The UI of this APP designed to be a game controller style. Manipulating game is so easy.
+
+    * 设备连网，连网利器   The efficient tool to connect to the internet 
+        开启手机WiFi或热点，发送WiFi或热点密码即可让您的AR设备连上网络。
+		Turn on the WIF or hotspot, then send the password of WIFI or hotspot to the AR device, let it connect to the internet.
+
+    * AR应用市场，你的应用你做主   AR APP store
+        您的AR应用管理器，管理AR设备中的应用。下载、安装、卸载只需一键操作。
+		The App manager for the AR device.
+		Whether to download, install, or uninstall app, all you need is a one-click operation.
+
+    * 不仅于此，更多小惊喜等着你去发现
+	  More than these, more surprises waitting for you to find out.
+
+要求：demand
+
+    * 运行iOS 8.0或更高版本的iOS设备      IOS 8.0 and above 
+    * 通过蓝牙连接“智视AR”设备            Connect to EST AR device via bluetooth
+    * 兼容智视AR 1代、智视AR 2代】        Compatible with EST 1 and EST 2
+
+
+关键词：keywords
+
+【智视.小智.精灵.小智精灵】
+  EST / elfin / EST-elfin
