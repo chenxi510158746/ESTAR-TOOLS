@@ -1,0 +1,69 @@
+/* 
+  Localizable.strings
+  ESTAR-TOOLS
+
+  Created by chenxi on 2017/7/27.
+  Copyright © 2017年 BaiZe. All rights reserved.
+*/
+
+"3D_TOUCH_LOCALIZED_TITLE" = "Connect \"EST AR\" device";
+
+"LAUNCH_BUTTON_TITLE" = "Start now";
+"LAUNCH_IMAGE_PREFIX" = "launch_en_";
+
+"BLE_LABLE_TITLE" = "Bluetooth Device Search";
+"BLE_DISCOVERED_TITLE" = "Discovered Devices";
+"BLE_STATUS_POWERED_OFF" = "Bluetooth is not open. Please open bluetooth!";
+"BLE_STATUS_UNSUPPORTED" = "Device does not support BLE bluetooth!";
+"BLE_STATUS_UNAUTHORIZED" = "Application unauthorized Bluetooth usage!";
+"BLE_STATUS_RESETTING" = "Bluetooth service connection is invalid. Please restart it!";
+"BLE_STATUS_UNKNOWN" = "Bluetooth status is unknown. Please restart!";
+"BLE_RECONNECTION_TIMES" = "reconnection!";
+"BLE_CONNECT_FAIL" = "Device connect failed";
+"BLE_DISCONNECT" = "Bluetooth disconnected, please reconnect!";
+"BLE_CONNECTING" = "Connecting devices";
+"BLE_CONNECT_SUCCESS" = "Successful connection device";
+"BLE_UNCONNECT_STATUS" = "Not connected";
+"BLE_PAIRED_STATUS" = "Paired";
+"BLE_CONNECTED_STATUS" = "Connected";
+
+"OPERATION_CONNECTED_DEVICE" = "Connected device";
+"OPERATION_SEND_TEXT_MSG" = "Send text messages";
+"OPERATION_MENUITEM_GAME" = "Game";
+"OPERATION_MENUITEM_NETWORK" = "Device network";
+"OPERATION_MENUITEM_APPSTORE" = "AR APP Store";
+"OPERATION_WIFI_TEXT_TITLE" = "Enter the WiFi password";
+"OPERATION_WIFI_TEXT_SUBTITLE" = "WiFi name";
+"OPERATION_HOTSPOT_TEXT_TITLE" = "Enter Hotspot password";
+"OPERATION_HOTSPOT_TEXT_SUBTITLE" = "Please make sure that the Hotspot is turned on. If not opened, please set the Hotspot";
+"OPERATION_HOTSPOT_BTN" = "Open Hotspot";
+"OPERATION_HOTSPOT_SET" = "System does not support the jump, please manually set: Settings->Cellular->Personal Hotspot";
+"OPERATION_SEND_PW" = "Send password";
+"OPERATION_NETWORK_TEXT_TITLE" = "Set network connect";
+"OPERATION_OPEN_WIFI_BTN" = "Open WiFi";
+"OPERATION_WIFI_SET_MSG" = "System does not support the jump, please manually settings: Settings->WLAN";
+"OPERATION_OPEN_HOTSPOT_BTN" = "Open Hotspot";
+"OPERATION_NETWORK_TEXT_SUBTITLE" = "Open Hotspot or WiFi";
+"OPERATION_DEVICE_NETWORK_SUCCESS" = "Device network connection successful!";
+"OPERATION_DEVICE_NETWORK_FAIL" = "Device network connection failed!";
+"OPERATION_WIFI_SEND_SUCCESS" = "WIFI connection was sent, Please be patient!";
+"OPERATION_HOTSPOT_SEND_SUCCESS" = "Hotspot connection was sent! Hotspot connection may be delayed, please be patient!";
+
+//应用市场tips
+"STORE_UNCONTECT_GLASS" = "UnConnect AR Glass";
+"STORE_TITLE" = "AR APP STORE";
+"STORE_DOWNLOAD" = "Download";
+"STORE_UNINSTALL" = "Uninsatll";
+"STORE_CANCEL" = "Cancel";
+"STORE_BACK" = "Back";
+"STORE_SEND_DOWNLOAD_INFO" = "Send Download info";
+"STORE_SEND_UNINSTALL" = "Send Uninstall info";
+"STORE_NETWORK_ERROR" = "Connect Network first";
+"STORE_PULLUP_OR_CLICK_LOADMORE" = "Click or Pull up to Load More";
+"STORE_DOWNLOAD_FAIL" = "Download fail";
+
+"NETWORK_ERROR_1" = "WIFI information is incorrect. Please check it!";
+"NETWORK_ERROR_2" = "WIFI is not in the scan list of glasses. Please try again later!";
+"NETWORK_ERROR_3" = "WIFI signal strength is weak!";
+
+

@@ -1,0 +1,66 @@
+/* 
+  Localizable.strings
+  ESTAR-TOOLS
+
+  Created by chenxi on 2017/7/27.
+  Copyright © 2017年 BaiZe. All rights reserved.
+*/
+
+"3D_TOUCH_LOCALIZED_TITLE" = "连接“智视AR”设备";
+
+"LAUNCH_BUTTON_TITLE" = "立即使用";
+"LAUNCH_IMAGE_PREFIX" = "launch_cn_";
+
+"BLE_LABLE_TITLE" = "蓝牙设备搜索";
+"BLE_DISCOVERED_TITLE" = "发现的设备";
+"BLE_STATUS_POWERED_OFF" = "蓝牙未开启，请打开蓝牙！";
+"BLE_STATUS_UNSUPPORTED" = "设备不支持BLE蓝牙！";
+"BLE_STATUS_UNAUTHORIZED" = "应用未授权蓝牙使用！";
+"BLE_STATUS_RESETTING" = "蓝牙服务连接失效，请重新启动！";
+"BLE_STATUS_UNKNOWN" = "蓝牙状态未知，请重新启动！";
+"BLE_RECONNECTION_TIMES" = "次重连！";
+"BLE_CONNECT_FAIL" = "设备配对失败";
+"BLE_DISCONNECT" = "蓝牙断开，请重新连接！";
+"BLE_CONNECTING" = "正在连接设备";
+"BLE_CONNECT_SUCCESS" = "成功连接设备";
+"BLE_UNCONNECT_STATUS" = "未连接";
+"BLE_PAIRED_STATUS" = "已配对";
+"BLE_CONNECTED_STATUS" = "已连接";
+
+"OPERATION_CONNECTED_DEVICE" = "已连接设备";
+"OPERATION_SEND_TEXT_MSG" = "发送文本消息";
+"OPERATION_MENUITEM_GAME" = "游戏手柄";
+"OPERATION_MENUITEM_NETWORK" = "设备连网";
+"OPERATION_MENUITEM_APPSTORE" = "应用商店";
+"OPERATION_WIFI_TEXT_TITLE" = "输入WiFi密码";
+"OPERATION_WIFI_TEXT_SUBTITLE" = "WiFi名称";
+"OPERATION_HOTSPOT_TEXT_TITLE" = "输入热点密码";
+"OPERATION_HOTSPOT_TEXT_SUBTITLE" = "请确保热点已打开，如未打开请“设置热点”";
+"OPERATION_HOTSPOT_BTN" = "设置热点";
+"OPERATION_HOTSPOT_SET" = "系统不支持跳转，请手动设置：设置->蜂窝移动网络->个人热点";
+"OPERATION_SEND_PW" = "发送密码";
+"OPERATION_NETWORK_TEXT_TITLE" = "设置网络连接";
+"OPERATION_OPEN_WIFI_BTN" = "开启WiFi";
+"OPERATION_WIFI_SET_MSG" = "系统不支持跳转，请手动设置：设置->无线局域网";
+"OPERATION_OPEN_HOTSPOT_BTN" = "开启蜂窝网络热点";
+"OPERATION_NETWORK_TEXT_SUBTITLE" = "开启WiFi或蜂窝网络热点";
+"OPERATION_DEVICE_NETWORK_SUCCESS" = "设备网络连接成功！";
+"OPERATION_DEVICE_NETWORK_FAIL" = "设备网络连接失败！";
+"OPERATION_WIFI_SEND_SUCCESS" = "WIFI连接已发送，请耐心等待！";
+"OPERATION_HOTSPOT_SEND_SUCCESS" = "热点连接已发送！热点连接可能有延迟，请耐心等待！";
+
+"STORE_UNCONTECT_GLASS" = "AR眼镜未连接,请先连接";
+"STORE_TITLE" = "AR应用市场";
+"STORE_DOWNLOAD" = "下载";
+"STORE_UNINSTALL" = "卸载";
+"STORE_CANCEL" = "取消";
+"STORE_BACK" = "返回";
+"STORE_SEND_DOWNLOAD_INFO" = "下载指令已发送";
+"STORE_SEND_UNINSTALL" = "卸载指令已发送";
+"STORE_NETWORK_ERROR" = "请先连接网络";
+"STORE_PULLUP_OR_CLICK_LOADMORE" = "上拉或点击加载更多";
+"STORE_DOWNLOAD_FAIL" = "下载失败";
+
+"NETWORK_ERROR_1" = "WIFI信息有误，请核对！";
+"NETWORK_ERROR_2" = "该WIFI不在眼镜的扫描列表中，请稍后再试！";
+"NETWORK_ERROR_3" = "该WIFI信号强度弱！";

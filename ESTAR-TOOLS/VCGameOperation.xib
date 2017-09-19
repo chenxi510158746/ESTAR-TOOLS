@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F2073" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VCGameOperation">
+            <connections>
+                <outlet property="btnA" destination="qlr-t0-MXE" id="72f-Ir-rrf"/>
+                <outlet property="btnB" destination="Gxr-mr-3u0" id="mVy-m3-yjC"/>
+                <outlet property="btnBack" destination="d4q-20-HvC" id="ffR-7Z-cxD"/>
+                <outlet property="btnDown" destination="hCh-qa-hLT" id="omk-Qo-unX"/>
+                <outlet property="btnLeft" destination="ReG-OS-9Uc" id="tLL-nj-tgl"/>
+                <outlet property="btnPause" destination="9Ax-PQ-7wy" id="uez-l9-dVM"/>
+                <outlet property="btnRight" destination="H6F-cZ-Bdg" id="jmi-js-BRP"/>
+                <outlet property="btnUp" destination="B8u-g9-HRW" id="QdQ-ri-f2T"/>
+                <outlet property="btnX" destination="mCR-N7-Gdq" id="xjT-Wn-U9L"/>
+                <outlet property="btnY" destination="1IJ-t1-Dit" id="zDH-WD-7BY"/>
+                <outlet property="imgBCenter" destination="yOj-PT-m3u" id="geY-ur-Mne"/>
+                <outlet property="imgBg" destination="dTT-Sx-8dc" id="tto-dW-nWJ"/>
+                <outlet property="imgCircleLeft" destination="QXd-Fl-3QW" id="XYM-iX-CZ4"/>
+                <outlet property="imgCircleRight" destination="RbB-gX-nSA" id="IFS-gY-gm5"/>
+                <outlet property="view" destination="Ro8-Vf-aiz" id="suY-uN-Db0"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Ro8-Vf-aiz">
+            <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg2.png" translatesAutoresizingMaskIntoConstraints="NO" id="dTT-Sx-8dc">
+                    <rect key="frame" x="0.0" y="20" width="667" height="355"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d4q-20-HvC">
+                    <rect key="frame" x="20" y="20" width="75" height="23"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="back.png"/>
+                    <state key="highlighted" image="back-touch.png"/>
+                    <connections>
+                        <action selector="gameBack:" destination="-1" eventType="touchUpInside" id="oUy-ej-Uhz"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-left.png" translatesAutoresizingMaskIntoConstraints="NO" id="QXd-Fl-3QW">
+                    <rect key="frame" x="0.0" y="82" width="239.5" height="240.5"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCh-qa-hLT">
+                    <rect key="frame" x="78" y="231" width="70" height="65"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="b-buttom.png"/>
+                    <state key="highlighted" image="b-buttom-touch.png"/>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-right.png" translatesAutoresizingMaskIntoConstraints="NO" id="RbB-gX-nSA">
+                    <rect key="frame" x="427.5" y="82" width="239.5" height="240.5"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCR-N7-Gdq">
+                    <rect key="frame" x="453" y="163" width="65.5" height="65"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="button-x.png"/>
+                    <state key="highlighted" image="button-x-touch.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gxr-mr-3u0">
+                    <rect key="frame" x="583" y="165" width="65" height="64.5"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="button-b.png"/>
+                    <state key="highlighted" image="button-b-touch.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlr-t0-MXE">
+                    <rect key="frame" x="517" y="231" width="65" height="65"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="button-a.png"/>
+                    <state key="highlighted" image="button-a-touch.png"/>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="b-center.png" translatesAutoresizingMaskIntoConstraints="NO" id="yOj-PT-m3u">
+                    <rect key="frame" x="78" y="161" width="70" height="70"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8u-g9-HRW">
+                    <rect key="frame" x="78" y="96" width="70" height="65"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="b-top.png"/>
+                    <state key="highlighted" image="b-top-touch.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6F-cZ-Bdg">
+                    <rect key="frame" x="148" y="161" width="65.5" height="70"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="b-right.png"/>
+                    <state key="highlighted" image="b-right-touch.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1IJ-t1-Dit">
+                    <rect key="frame" x="517" y="96" width="65" height="65"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="button-y.png"/>
+                    <state key="highlighted" image="button-y-touch.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ReG-OS-9Uc">
+                    <rect key="frame" x="13" y="161" width="65" height="70"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="b-left.png"/>
+                    <state key="highlighted" image="b-left-touch.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ax-PQ-7wy">
+                    <rect key="frame" x="298" y="279" width="71.5" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="pause_start_normal.png"/>
+                    <connections>
+                        <action selector="PauseOrStart:" destination="-1" eventType="touchUpInside" id="RJh-qt-rBm"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="-193.5" y="142.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="b-buttom-touch.png" width="156" height="130"/>
+        <image name="b-buttom.png" width="156" height="130"/>
+        <image name="b-center.png" width="156" height="156"/>
+        <image name="b-left-touch.png" width="129" height="156"/>
+        <image name="b-left.png" width="129" height="156"/>
+        <image name="b-right-touch.png" width="131" height="156"/>
+        <image name="b-right.png" width="131" height="156"/>
+        <image name="b-top-touch.png" width="156" height="130"/>
+        <image name="b-top.png" width="156" height="130"/>
+        <image name="back-touch.png" width="137" height="44"/>
+        <image name="back.png" width="137" height="44"/>
+        <image name="bg2.png" width="1280" height="720"/>
+        <image name="button-a-touch.png" width="118" height="122"/>
+        <image name="button-a.png" width="118" height="122"/>
+        <image name="button-b-touch.png" width="118" height="122"/>
+        <image name="button-b.png" width="118" height="122"/>
+        <image name="button-x-touch.png" width="118" height="122"/>
+        <image name="button-x.png" width="118" height="122"/>
+        <image name="button-y-touch.png" width="118" height="122"/>
+        <image name="button-y.png" width="118" height="122"/>
+        <image name="circle-left.png" width="507" height="521"/>
+        <image name="circle-right.png" width="507" height="521"/>
+        <image name="pause_start_normal.png" width="170" height="80"/>
+    </resources>
+</document>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F2073" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="AppItemEntity" representedClassName="AppItemMgrEntity" syncable="YES">
+        <attribute name="appId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imgUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pkgName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AppItemEntity" positionX="-54" positionY="-9" width="128" height="135"/>
+    </elements>
+</model>
